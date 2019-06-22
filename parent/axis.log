@@ -1,0 +1,22 @@
+2019-06-21 21:53:58,208 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2019-06-21 21:53:58,301 93     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Fri Jun 21 21:53:58 CST 2019]; root of context hierarchy
+2019-06-21 21:53:58,379 171    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springcontroller.xml]
+2019-06-21 21:53:59,253 1045   [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-21 21:53:59,549 1341   [ost-startStop-1] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2019-06-21 21:53:59,752 1544   [ost-startStop-1] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2019-06-21 21:54:00,392 2184   [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 2184 ms
+2019-06-21 21:54:00,485 2277   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-21 21:54:00,485 2277   [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Fri Jun 21 21:54:00 CST 2019]; parent: Root WebApplicationContext
+2019-06-21 21:54:00,485 2277   [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [springmvc.xml]
+2019-06-21 21:54:00,782 2574   [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-21 21:54:01,172 2964   [ost-startStop-1] INFO  andler.SimpleUrlHandlerMapping  - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2019-06-21 21:54:01,359 3151   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/brand/saveBrand]}" onto public com.itheima.domain.Result com.itheima.controller.BrandController.save(com.itheima.domain.TbBrand)
+2019-06-21 21:54:01,359 3151   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/brand/delete]}" onto public com.itheima.domain.Result com.itheima.controller.BrandController.search(java.lang.Long)
+2019-06-21 21:54:01,359 3151   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/brand/search]}" onto public com.itheima.domain.Result com.itheima.controller.BrandController.search(com.itheima.domain.TbBrand)
+2019-06-21 21:54:01,359 3151   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/brand/login]}" onto public java.lang.String com.itheima.controller.BrandController.login()
+2019-06-21 21:54:01,359 3151   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/brand/findAll]}" onto public com.itheima.domain.Result com.itheima.controller.BrandController.findAll()
+2019-06-21 21:54:01,359 3151   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/brand/findById]}" onto public com.itheima.domain.Result com.itheima.controller.BrandController.findById(java.lang.Long)
+2019-06-21 21:54:01,359 3151   [ost-startStop-1] INFO  n.RequestMappingHandlerMapping  - Mapped "{[/brand/update]}" onto public com.itheima.domain.Result com.itheima.controller.BrandController.findById(com.itheima.domain.TbBrand)
+2019-06-21 21:54:02,031 3823   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Fri Jun 21 21:54:00 CST 2019]; parent: Root WebApplicationContext
+2019-06-21 21:54:02,140 3932   [ost-startStop-1] INFO  n.RequestMappingHandlerAdapter  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Fri Jun 21 21:54:00 CST 2019]; parent: Root WebApplicationContext
+2019-06-21 21:54:02,358 4150   [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization completed in 1873 ms
